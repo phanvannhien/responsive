@@ -1,0 +1,58 @@
+/* 
+    Document   : manage
+    Created on : Nov 22, 2013, 4:52:58 PM
+    Author     : jjjjj
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/* Large desktop */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) { 
+    .container{
+        width: 980px !important;
+    }
+}
+
+root { 
+    display: block;
+}
+header{
+    margin-bottom: 20px;
+}
+.padding10{
+    padding: 10px;
+}
+#top{
+    height: 40px;
+    border-bottom: 1px solid #d1d1d1;
+}
+#golive-logo a{
+    display: block;
+    width: 160px;
+    height: 68px;
+    text-indent: -99999px;
+    background: url('../img/golive-logo.png');
+}
+.right{
+    float:right;
+}
+
+footer{
+    border-top:1px solid #d1d1d1;
+    margin-top: 15px;
+    padding: 10px 0px;
+}
+hr.sperator{
+    border-top:1px solid #d1d1d1;
+    margin: 10px 0px;
+}

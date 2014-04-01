@@ -1,0 +1,288 @@
+html{font-family:Verdana, Arial, sans-serif;font-size:1em;background:#f0f0f0}
+body{font-family:Verdana, Arial, sans-serif;font-size:0.688em;padding:0;margin:0;line-height:1.6em;background:#fff;min-width:960px;}
+.img{background:gray;display:inline-block;border:0}
+img, img a{border:0 !important}
+h1{font-family:Verdana, Geneva, sans-serif !important;font-size:1.8em;color:#ff9900;}
+a{text-decoration:underline;color:#333}
+a:hover{color:#f7941d}
+.hide{display:none}
+.textbox {background:#fff; width:370px !important;margin-right:5px;border:0; height:34px; float:left}
+input[type="search"]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield}
+.icon-arrow-right{background:url(http://images.vietnamworks.com/img/jobseekers/ico-nav.png) no-repeat;display:inline-block;line-height:14px;vertical-align:text-top;background-repeat:no-repeat;}
+.icon-arrow-right, .icon-pencil, .icon-resume, .icon-star,
+.icon-saved-resume, .icon-chat, .icon-alert, .icon-profile, .icon-setting, .icon-logout{background:url(http://images.vietnamworks.com/img/jobseekers/ico-nav.png) no-repeat;display:inline-block;line-height:14px;vertical-align:text-top;background-repeat:no-repeat;}
+.icon-arrow-right{background:url(http://images.vietnamworks.com/img/jobseekers/ico-arrow-right.png) no-repeat 0 0;width:7px;height:11px;margin-top:0;line-height:11px;vertical-align:baseline;*vertical-align:middle}
+.icon-close{background:url(http://images.vietnamworks.com/img/jobseekers/ico-close.png) no-repeat 0 0;width:12px;height:12px}
+.icon-pencil{width:16px;height:16px;background-position:0 -5px}
+a:hover .icon-pencil{background-position:-34px -5px}
+.icon-pencil.disabled{background-position:0 -205px}
+.icon-resume{width:16px;height:16px;background-position:0 -28px}
+a:hover .icon-resume{background-position:-35px -28px}
+.icon-resume.disabled{background-position:0 -230px}
+.icon-star{width:16px;height:16px;background-position:0 -56px}
+a:hover .icon-star{background-position:-35px -56px}
+.icon-star.disabled{background-position:0 -256px}
+.icon-saved-resume{width:16px;height:16px;background-position:0 -79px}
+a:hover .icon-saved-resume{background-position:-35px -79px}
+.icon-chat{width:16px;height:16px;background-position:0 -105px}
+a:hover .icon-chat{background-position:-35px -105px}
+.icon-chat.disabled{background-position:0 -305px}
+.icon-alert{width:16px;height:16px;background-position:0 -80px}
+a:hover .icon-alert{background-position:-35px -80px}
+.icon-alert.disabled{background-position:0 -280px}
+.icon-profile{width:16px;height:16px;background-position:0 -130px}
+a:hover .icon-profile{background-position:-35px -130px}
+.icon-setting{width:16px;height:16px;background-position:0 -154px}
+a:hover .icon-setting{background-position:-35px -154px}
+.icon-logout{width:16px;height:16px;background-position:0 -181px}
+a:hover .icon-logout{background-position:-35px -181px}
+.mCSB_container{margin-right:30px;overflow:hidden;}
+.mCSB_container.mCS_no_scrollbar{margin-right:0}
+.mCS_disabled > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar, .mCS_destroyed > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar{margin-right:30px}
+.mCustomScrollBox > .mCSB_scrollTools{width:16px;height:100%;top:0;right:0}
+.mCSB_scrollTools .mCSB_draggerContainer{position:absolute;top:0;left:0;bottom:0;right:0;height:auto}
+.mCSB_scrollTools a + .mCSB_draggerContainer{margin:20px 0}
+.mCSB_scrollTools .mCSB_draggerRail{width:2px;height:100%;margin:0 auto;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
+.mCSB_scrollTools .mCSB_dragger{cursor:pointer;width:100%;height:30px}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:4px;height:100%;margin:0 auto;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;text-align:center}
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown{display:block;position:relative;height:20px;overflow:hidden;margin:0 auto;cursor:pointer}
+.mCSB_scrollTools .mCSB_buttonDown{top:100%;margin-top:-40px}
+.master-header{min-width:940px;}
+.header.container{width:100% !important;height:96px !important;background:#fff !important;padding:0;border-bottom:1px #eee solid;border-bottom:1px #e5e9ef solid}
+.header.container > .row{margin:0 auto;width:940px;}
+header .header{position:relative;z-index:1000;padding:0;}
+.header-info{text-align:right;padding-top:5px;float:right !important}
+.header-info .navigation{margin-top:16px;position:relative}
+.header-info .navigation-inner{float:right}
+.header-info .navigation .account, .header-info .navigation .main-menu{float:right;height:30px;line-height:30px;cursor:pointer}
+.header-info .navigation .account .avatar{margin-right:4px;display:block;float:left;margin-top:3px}
+.header-info .navigation .account .name{font-size:1.182em;display:block;max-width:152px;height:30px;margin-left:5px;overflow:hidden;overflow:hidden;float:left}
+.header-info .navigation .account{margin-right:10px;width:auto;padding-left:1px}
+.header-info .navigation .main-menu-wrapper:hover .name{color:#f7941d}
+.header-info .avatar{display:block;width:24px;height:24px;background:url('http://images.vietnamworks.com/img/jobseekers/avatar.png')}
+.header-info .not-loggedin .account{display:none}
+.header-info .msg-highlight{font-size:1em;color:#666;border:1px #ccc solid;background:#f5f5f5;padding:5px 10px;margin-bottom:10px;margin-top:9px}
+.header-info .msg-highlight a{color:#00b8f1}
+a.localization{color:#333;margin-right:10px;font-weight:bold;*position:relative;*top:-5px; text-decoration:none}
+a.localization:hover{color:#f7941d}
+.switch-bar{}
+.employer-site{display:inline-block;padding:5px 15px;background:#2bb732;color:white;font-weight:bold;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px}
+.employer-site span{margin-right:5px}
+.employer-site a{text-transform:uppercase;color:#fff !important}
+.employer-site:hover a{color:#f7941d}
+.logo{display:block;margin:0 !important;padding:0 !important}
+.logo img{padding:10px 0 6px 0 !important;max-width:none;border:0;margin-left:-20px}
+.login, .signup, .main-menu a{display:inline-block;color:#333;cursor:pointer}
+.main-menu a:hover{color:#f7941d}
+.main-menu-wrapper{float:right;padding-left:6px;padding-top:2px;*z-index:101;*position:relative;border-top:1px solid #fff;border-right:1px solid #fff;border-left:1px solid #fff;max-width:219px}
+.not-loggedin .main-menu-wrapper{padding-left:0;*width:40px;display:block}
+.not-loggedin .welcome{float:right;margin-top:8px;margin-right:10px}
+.not-loggedin .welcome a{color:#00b8f1}
+.not-loggedin .welcome a:hover{color:#f7941d}
+.main-menu-wrapper.hover{box-shadow:-1px -2px 6px rgba(0, 0, 0, 0.1);position:relative;z-index:1001;background:white;border-top:1px solid #ddd !important;border-right:1px solid #ddd !important;border-left:1px solid #ddd !important;*display:inline-block}
+.main-menu{position:relative}
+.main-menu a img{padding:8px}
+.main-menu a img.hover{}
+.main-menu-dialog{position:absolute;background:white;padding:15px 20px;box-shadow:0 0 15px rgba(0, 0, 0, 0.1);color:#333;z-index:1000;top:32px;right:0;text-align:left;width:185px;display:none;border:1px solid #ddd}
+.main-menu-dialog ul{margin:0;padding:0;list-style:none;margin-left:10px;margin-bottom:10px;*margin-bottom:0}
+.main-menu-dialog ul.disabled{margin-bottom:0}
+.main-menu-dialog ul li{margin-top:10px;margin-bottom:8px;display:block}
+.main-menu-dialog [class^="icon-"]{margin-right:5px;margin-top:-1px}
+.main-menu-dialog p{margin-bottom:0;margin-top:0}
+.main-menu-dialog p:first-child{margin-top:0}
+.main-menu-dialog strong{text-transform:uppercase}
+.main-menu-dialog a{margin-top:0;text-decoration:none;color:#333}
+.main-menu-dialog a:hover{color:#f7941d}
+.not-loggedin .main-menu-dialog a{color:#00b8f1}
+.not-loggedin .main-menu-dialog a:hover{color:#ff9c01}
+.main-menu-dialog .disabled li{color:#ccc}
+.main-menu-dialog strong.disabled{color:#ccc}
+.main-menu-dialog .signout{margin-left:10px}
+.main-menu-dialog hr{height:1px;background:#ddd;color:#ddd;clear:both;float:none;width:100%;border:none;margin:10px 0;*margin:2px 0}
+.main-menu-dialog hr.sign-in-call{margin-top:10px;margin-bottom:10px}
+.main-menu-dialog .sign-in-call{line-height:18px}
+.main-menu-dialog li a{display:block;padding-left:25px;line-height:16px}
+.main-menu-dialog li a span{margin-left:-25px}
+.shadow-cover{position:absolute;top:30px;right:1px;height:10px;width:224px;background:white;z-index:103;display:none}
+.subnav.container{margin:20px auto !important;}
+.subnav .subnav-box{margin:0;overflow:auto}
+.subnav ul{float:left;padding:0;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0;}
+.subnav ul li{float:left;list-style:none;margin:0;border-left:1px #666 solid}
+.subnav ul li:first-child{border:0;padding:0}
+.subnav ul li:first-child a{padding-left:0}
+.subnav ul li a{color:#666;font-weight:bold;text-decoration:none;padding:0 10px;display:block}
+.subnav ul li a.active, .subnav ul li a span:hover{color:#f7941d;font-weight:bold;text-decoration:none;}
+.banner{display:block;margin:0;min-width:940px;padding:55px 30px 20px;background:#f2f2f2;border-bottom:1px #e5e9ef solid}
+.banner.search-tool.fixthis{margin-bottom:200px;height:200px}
+.banner .container{background:none !important}
+.banner.home{padding:45px 30px 20px;background:#fff url('http://images.vietnamworks.com/img/jobseekers/bg_search.jpg') no-repeat 0 -10px;margin-top:0;border:0}
+.banner.home .span12{margin-left:20px !important;width:940px}
+.banner.home .search-button{width:137px}
+.banner.home .headline{font-family:Arial, Helvetica, sans-serif !important;font-size:2.4em;color:#666;font-weight:normal;margin:0;padding:0 0 75px 0}
+.banner.home .headline strong{color:#f7941d}
+.banner .job-category{background:white;padding:25px;position:relative;z-index:2;border:2px solid #00b8f1;overflow:hidden;display:none;}
+.banner .job-category h2{font-size:14px;color:#555;margin-bottom:15px}
+.banner .job-category ul{margin:0;padding-left:0;list-style:none;overflow:hidden;margin-bottom:0}
+.banner .job-category ul a{color:#333;display:block; text-decoration:none}
+.banner .job-category ul a:hover{color:#f7941d}
+.banner .job-category ul li{float:left;width:31.2%;line-height:26px;padding:0 1%;}
+.banner .job-category em{color:#f7941d;font-style:normal}
+.banner .job-category .view-all{display:block;cursor:pointer;float:right;color:#555;padding-top:15px}
+.banner .job-category .view-all:hover{color:#f7941d}
+.banner .job-category .category-list ul.odd li{background:#efefef !important}
+.search-area-wrapper{position:relative;margin-top:0;font-size:12px}
+.search-area-wrapper .tab-searchjob, .search-area-wrapper .tab-jobcategories{background:white;position:absolute;top:-35px;border-top:1px solid #dcdcdc;border-left:1px solid #dcdcdc;border-right:1px solid #dcdcdc;width:160px;height:34px;line-height:34px;text-align:center;text-transform:uppercase;z-index:1;cursor:pointer;color:#555}
+.search-area-wrapper .tab-searchjob:hover, .search-area-wrapper .tab-jobcategories:hover{color:#f7941d}
+.search-area-wrapper .tab-searchjob{left:0}
+.search-area-wrapper .tab-jobcategories{left:165px}
+.search-area-wrapper .active-tab{font-weight:bold; background:#00b9f2;border:1px solid #00b9f2;border-bottom:1px #00b9f2 solid;height:34px;top:-35px;z-index:3;color:#fff;}
+.search-area-wrapper .active-tab:hover{color:#00627f}
+.search-area-wrapper .shadow-cover{background:#00b9f2;width:350px;height:8px;position:absolute;z-index:20;top:0;left:0}
+.search-area{background:#00b9f2;padding:25px;min-height:73px;font-size:12px;border:2px #00b9f2 solid;position:relative;z-index:2;*z-index:auto;zoom:1;margin:0 auto}
+.search-area{margin:0 auto;}
+.search-area input[type="text"]:focus,
+.search-area input[type="search"]:focus,
+.search-area .chosen-container-multi .chosen-choices:focus{border:1px solid #f7941d !important;outline:0}
+.search-area input.search-button{float:right;width:156px;height:34px;color:#fff;background:#f7941d;border:1px solid #fff;cursor:pointer;font-weight:700;font-family:Verdana, arial, sans-serif; font-size:12px}
+.search-area input.search-button:hover{background:#f48c0e;}
+.search-area input.search-button:active{background:#f29100;border:1px solid #d98200;}
+.search-area .search-criteria{overflow:auto;margin-bottom:5px;}
+.search-area .search-textbox, .banner .chosen-container{float:left;width:auto;height:auto;}
+.search-area .chosen-container{width:370px !important;margin-right:5px;border:0;}
+.search-area .search-textbox{width:733px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#555;height:22px; line-height:22px;border:1px #fff solid !important;padding:5px; margin:0}
+.search-area .chosen-choices{height:34px !important;width:370px;padding:5px 0 5px;*width:368px !important}
+.search-area .chosen-container-multi .chosen-choices{border:1px #fff solid}
+.search-area .chosen-container-multi .chosen-choices .search-choice{padding-right:16px}
+.search-area .chosen-container .search-choice span{display:block;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.search-area .chosen-choices .search-choice.multi-1 {width:auto }
+.search-area .chosen-choices .search-choice.multi-2 {width:125px;*width:110px;}
+.search-area .chosen-choices .search-choice.multi-3 {width:70px;*width:58px;}
+.search-area .chosen-container .search-choice-disabled span{width:auto; color:#999}
+.main-container-wrapper{background:#fff;min-height:380px;min-width:960px;overflow:hidden;margin-top:10px}
+footer.footer-wrapper{background:#f0f0f0;min-width:940px;margin-top:30px}
+footer.footer-wrapper .color-line{height:2px;display:block;overflow:hidden;margin-bottom:10px}
+footer.footer-wrapper .color-line .blue-line{background:#00b9f1;display:block;height:4px;width:68%;float:left}
+footer.footer-wrapper .color-line .orange-line{background:#f7941d;display:block;height:4px;width:32%;float:left}
+footer.footer-wrapper h3{font-size:1em;color:#333 !important;margin:15px 0;font-family:Verdana, Geneva, sans-serif}
+footer .container{padding-bottom:30px}
+footer .container ul{margin-left:0;padding-left:0;list-style:none}
+footer .container li{line-height:18px}
+footer .container ul a{color:#333 !important;cursor:pointer; text-decoration:none}
+footer .container ul a:hover{color:#f7941d !important;cursor:pointer}
+footer .container .navigation{position:relative;left:50px}
+footer .container .item3{position:relative;left:50px}
+footer .container .item3 img{margin-bottom:10px}
+footer .container .item3 a{display:block}
+footer .container .item4{text-align:right;padding-left:50px;position:relative;right:-20px}
+footer .container .item4 a{text-decoration:none}
+footer .container .copyright{margin-top:30px;padding-top:0 !important;font-size:0.917em;line-height:13px}
+.dropdownMenu{background:#fff;box-shadow:0 0 20px rgba(0, 0, 0, 0.3);border:1px #fff solid;padding:0;margin:0}
+.dropdownMenu a{color:#555;display:block;font-size:1em;padding:3px 10px;margin:0;border-bottom:1px #e9e9e9 solid;text-decoration:none}
+.dropdownMenu a strong{color:#666666;font-weight:bold}
+.dropdownMenu a.current, .dropdownMenu a.current strong{background:#ffffff;color:#f7941d !important}
+.dropdownMenu.fixHeight{height:320px;overflow:auto;float:left}
+.dropdownMenu a:hover, .dropdownMenu a:hover strong{background:#f0f0f0;color:#00b9f1 !important}
+iframe .google_conversion_frame{display:none}
+.fixthis{position:absolute;z-index:99;width:100%}
+.fixed{position:fixed;top:0;}
+.container{margin:0 auto}
+.row{margin-left:-20px;*zoom:1}
+.row:before,
+.row:after{display:table;line-height:0;content:""}
+.row:after{clear:both}
+[class*="span"]{float:left;min-height:1px;margin-left:20px}
+[class*="span-"]{float:left;margin-left:0}
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container{width:960px !important;}
+.span12{width:960px}
+.span11{width:860px}
+.span10{width:780px}
+.span9{width:700px}
+.span8{width:620px}
+.span7{width:540px}
+.span6{width:460px}
+.span5{width:380px}
+.span4{width:300px}
+.span3{width:220px}
+.span2{width:140px}
+.span1{width:40px}
+.offset4{margin-left:340px}
+.offset5{margin-left:420px}
+.outside-content{margin:auto;width:960px}
+.sign-up-thanks .txt_orange{line-height:24px}
+.sign-up-thanks tr td{background:none !important}
+.view-printresume{position:relative;top:30px;right:-10px}
+.create-resume-description{width:500px;padding-left:357px;margin-top:-10px}
+#crop_outer .article{font-size:1em;}
+#resumePost img[src~='http://images.vietnamworks.com/gen/tips.png']{*position:relative;*top:-8px}
+.chosen-container{position:relative;vertical-align:middle;zoom:1;display:inline;-webkit-user-select:none;-moz-user-select:none;user-select:none;font-family:Verdana, Arial, sans-serif !important;}
+.chosen-container .chosen-drop{border:1px #eee solid;position:absolute;top:100%;left:-9999px;z-index:1010;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;background:#fff;box-shadow:0 0 20px rgba(0, 0, 0, .3);}
+.chosen-container.chosen-with-drop .chosen-drop{left:0;}
+.chosen-container a{cursor:pointer;}
+.chosen-container-single .chosen-single{position:relative;display:block;overflow:hidden;height:23px;border:1px solid #fff;background:#fff;color:#444;text-decoration:none;white-space:nowrap;line-height:24px;padding:0 0 0 8px;}
+.chosen-container-single .chosen-single span{display:block;overflow:hidden;margin-right:26px;text-overflow:ellipsis;white-space:nowrap;}
+.chosen-container-single .chosen-single-with-deselect span{margin-right:38px;}
+.chosen-container-single .chosen-single abbr{position:absolute;top:6px;right:26px;display:block;width:12px;height:12px;background:url(http://images.vietnamworks.com/img/jobseekers/chosen-sprite.png) -42px 1px no-repeat;font-size:1px;}
+.chosen-container-single .chosen-single div{position:absolute;top:0;right:0;display:block;width:18px;height:100%;}
+.chosen-container-single .chosen-single div b{display:block;width:100%;height:100%;background:url(http://images.vietnamworks.com/img/jobseekers/chosen-sprite.png) no-repeat 0 2px;}
+.chosen-container-single .chosen-search{position:relative;z-index:1010;white-space:nowrap;margin:0;padding:3px 4px;}
+.chosen-container-single .chosen-search input[type=text]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;height:auto;outline:0;background:#fff;line-height:normal;border-radius:0;margin:0;padding:4px 20px 4px 5px;}
+.chosen-container-single .chosen-drop{margin-top:-1px;background-clip:padding-box;}
+.chosen-container-single.chosen-container-single-nosearch .chosen-search{position:absolute;left:-9999px;}
+.chosen-container .chosen-results{position:relative;overflow-x:hidden;overflow-y:auto;max-height:240px;-webkit-overflow-scrolling:touch;margin:0 4px 4px 0;padding:0 0 0 4px;}
+.chosen-container .chosen-results li{display:none;list-style:none;line-height:15px;border-bottom:1px #e9e9e9 solid;margin:0;padding:6px;}
+.chosen-container .chosen-results li.active-result{display:list-item;cursor:pointer;}
+.chosen-container .chosen-results li.highlighted{background-color:#f2f2f2;color:#f7941d;}
+.chosen-container .chosen-results li.no-results{display:list-item;background:#f4f4f4;}
+.chosen-container .chosen-results li.group-result{display:list-item;font-weight:700;cursor:default;}
+.chosen-container .chosen-results li.group-option{padding-left:15px;}
+.chosen-container .chosen-results li em{font-style:normal;text-decoration:underline;}
+.chosen-container-multi .chosen-choices{position:relative;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;height:1%;border:1px solid #bbb;background-color:#fff;cursor:text;margin:0;padding:0;}
+.chosen-container-multi .chosen-choices li{float:left;list-style:none;}
+.chosen-container-multi .chosen-choices li.search-field{white-space:nowrap;margin:0;padding:0;}
+.chosen-container-multi .chosen-choices li.search-field input[type=text]{height:16px;outline:0;border:0 !important;background:transparent !important;box-shadow:none;color:#666;font-size:100%;line-height:15px;border-radius:0;margin:3px 0;margin-top:4px \9;padding:4px 5px;}
+.chosen-container-multi .chosen-choices li.search-choice{position:relative;background:#f0f0f0 url(http://images.vietnamworks.com/img/jobseekers/chosen-tag.png) no-repeat left center;color:#555;line-height:15px;cursor:default;margin:4px 0px 4px 5px;padding:2px 17px 2px 18px;line-height:18px}
+.search-area .chosen-container-multi .chosen-choices li.search-choice {margin:5px 0px 5px 5px;}
+.chosen-container-multi .chosen-choices li.search-choice:hover{color:#333;cursor:pointer}
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{position:absolute;top:5px;right:3px;display:block;width:12px;height:12px;background:url(http://images.vietnamworks.com/img/jobseekers/chosen-sprite.png) -42px 1px no-repeat;font-size:1px;}
+.chosen-container-multi .chosen-choices li.search-choice-disabled{background:none;border:0;color:#666;padding:2px 0; line-height:20px}
+.chosen-container-multi .chosen-choices li.search-choice-focus{background:#d4d4d4;}
+.chosen-container-multi .chosen-results{margin:0;padding:0;}
+.chosen-container-active .chosen-single{box-shadow:0 0 5px rgba(0, 0, 0, .3);}
+.chosen-container-active.chosen-with-drop .chosen-single{border:1px solid #bbb;-moz-border-radius-bottomright:0;border-bottom-right-radius:0;-moz-border-radius-bottomleft:0;border-bottom-left-radius:0;}
+.chosen-container-active.chosen-with-drop .chosen-single div{border-left:0;background:0 0;}
+.chosen-container-active.chosen-with-drop .chosen-single div b{background-position:-18px 2px;}
+.chosen-container-active .chosen-choices{border:1px solid #5897fb;box-shadow:0 0 5px rgba(0, 0, 0, .3);}
+.chosen-container-active .chosen-choices li.search-field input[type=text]{color:#111 !important;}
+.chosen-disabled{opacity:.5 !important;cursor:default;}
+.chosen-disabled .chosen-choices .search-choice .search-choice-close, .chosen-disabled .chosen-single{cursor:default;}
+.chosen-rtl{text-align:right;}
+.chosen-rtl .chosen-single{overflow:visible;padding:0 8px 0 0;}
+.chosen-rtl .chosen-single span{margin-right:0;margin-left:26px;direction:rtl;}
+.chosen-rtl .chosen-single-with-deselect span{margin-left:38px;}
+.chosen-rtl .chosen-single div{right:auto;left:3px;}
+.chosen-rtl .chosen-single abbr{right:auto;left:26px;}
+.chosen-rtl .chosen-choices li{float:right;}
+.chosen-rtl .chosen-choices li.search-field input[type=text]{direction:rtl;}
+.chosen-rtl .chosen-choices li.search-choice{margin-right:5px;background-color:#f2f2f2;color:#333;border:1px #ccc solid;padding:3px 5px;}
+.chosen-rtl .chosen-choices li.search-choice .search-choice-close{right:auto;left:4px;}
+.chosen-rtl .chosen-drop, .chosen-rtl.chosen-container-single-nosearch .chosen-search{left:9999px;}
+.chosen-rtl.chosen-container-single .chosen-results{margin:0 0 4px 4px;padding:0 4px 0 0;}
+.chosen-rtl .chosen-results li.group-option{padding-right:15px;padding-left:0;}
+.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div{border-right:0;}
+.chosen-rtl .chosen-search input[type=text]{background:url(http://images.vietnamworks.com/img/jobseekers/chosen-sprite.png) no-repeat -30px -20px linear-gradient(#eee1, #fff15);direction:rtl;padding:4px 5px 4px 20px;}
+.chosen-rtl.chosen-container-single .chosen-single div b{background-position:6px 2px;}
+.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b{background-position:-12px 2px;}
+.chosen-container-single .chosen-default, .chosen-container-multi .chosen-choices li.search-field .default{color:#999;}
+.chosen-container-single .chosen-single abbr:hover, .chosen-container-single.chosen-disabled .chosen-single abbr:hover, .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover, .chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close{background-position:-42px -10px;}
+.chosen-container .chosen-results li.disabled-result, .chosen-container-multi .chosen-drop .result-selected{display:list-item;color:#ccc;cursor:default;}
+@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-resolution:144dpi){.chosen-rtl .chosen-search input[type="text"],
+.chosen-container-single .chosen-single abbr,
+.chosen-container-single .chosen-single div b,
+.chosen-container-single .chosen-search input[type="text"],
+.chosen-container-multi .chosen-choices .search-choice .search-choice-close,
+.chosen-container .chosen-results-scroll-down span,
+.chosen-container .chosen-results-scroll-up span{background-image:url(http://images.vietnamworks.com/chosen-sprite@2x.png) !important;background-size:52px 37px !important;background-repeat:no-repeat !important;}
+}

@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.margintop20{
+    margin-top: 20px;
+}
+.marginbottom20{
+    margin-bottom: 20px;
+}
+.marginbottom10{
+    margin-bottom: 10px;
+}
+.error{
+    display: block;
+    color: red;
+}
+.l{
+    float:left;
+}

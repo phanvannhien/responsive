@@ -1,0 +1,4 @@
+viet 1 trang dung post de lay csdl
+sau do dung ajax client de truy xuat trang tren
+dung du lieu tra ve dua cho js tao hieu ung len trang html
+tao them 1 nut dich dua tren BING API, dung pop up de hien thi ban dich
