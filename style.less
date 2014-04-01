@@ -1,0 +1,194 @@
+@import 'less_file/grid.less';
+@import 'less_file/variable.less';
+@total-width: 100%;
+
+/*
+ # Trong đây chỉ là CSS của những thành phần cơ bản sử dụng mọi màn hình.
+*/
+ 
+/*------------------------------------------------------------------
+*----------------Main Style----------------------------------------*/
+ 
+body {
+ font-size: 93.8%;
+ line-height: 1.5em;
+ background: @color-background-gray;
+ font-family: Helvetica,Arial,sans-serif;
+}
+ 
+a {
+ color: @color-text-link;
+ text-decoration: none;
+ &:hover {
+  color: @color-text-link-hover;
+ }
+}
+
+*, *:before, *:after {
+ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+ .top-bar {
+        background: @color-text-link;
+        width: 100%;
+        margin: 0;
+        color: #fff;
+        padding: 0 15px;
+        position: fixed;
+        font-size: 0.9em;
+        z-index: 1000;
+        border-bottom: 1px solid #fff;
+        a { color: @color-text-topbar; font-style: italic }
+}
+#header {
+        padding-top: 3em;
+        background: @color-background-black;
+        color: #fff;
+        a {
+                color: #fff;
+                &:hover {
+                        color: @color-text-link-hover;
+                }
+        }
+}
+
+
+
+/*--Featured Post--*/
+.featured-post {
+        margin-bottom: 1em;
+        .box {
+                padding: 0.299em;
+                background: #fff;
+                .border-gray(1px);
+ 
+                .post {
+                        position: relative;
+                        .post-title {
+                                background: fade(#000, 80%);
+                                position: absolute;
+                                bottom: -5.9%;
+                                width: 100%;
+                                padding: 0.3em 1em 0.3em 0.5em;
+                                a {
+                                        color: #fff;
+                                        font-size: 0.9em;
+                                }
+                        }
+                } //end .post
+        } //end .box
+}
+.content-main {
+        .post {
+                background: #fff;
+                .post-meta {
+                        font-style: italic;
+                        margin: -1em 0 1em 0;
+                }
+                .post-exceprt {
+                        font-size: 0.9em;
+                }
+                .post-below {
+                        margin-top: 1em;
+                        .row(12);
+                        .facebook, .googleplus {
+                                .column(3,12);
+                        }
+                        .more {
+                                float: right !important;
+                                .column(3);
+                                a {
+                                        font-weight: bold;
+                                        background: url(img/read-more.png) no-repeat right;
+                                        padding-right: 1.3em;
+                                        color: #222;
+                                        &:hover {
+                                                color: @color-text-link;
+                                        }
+                                }
+                        }
+                }
+        } //end .post
+ 
+        .pagination {
+                background: lighten(#ddd, 10%);
+                color: lighten(#222, 25%);
+                padding: 1em;
+                font-size: 1.1em;
+                font-weight: bolder;
+                .border-gray(1px);
+        } //end pagination
+} //end .content-main
+
+.category-content {
+        .column(12);
+        h3 { text-align: center; font-size: 1.3em }
+        .post-info {
+                background: #fff;
+                padding: 1em;
+                .border-gray(1px);
+                img { display: block; margin: 0 auto}
+                h4 { font-size: 1.2em }
+                ul { list-style: none; margin: 0; padding: 0 }
+                li {
+                        margin-left: 1em;
+                        &:before {
+                                content: "»";
+                                margin-right: 5px;
+                        }
+                }
+ 
+        }
+} // end .category-content
+
+/*--Sidebar--*/
+.sidebar {
+        font-size: 0.9em;
+        padding-top: 2em;
+        clear: both;
+        h4.widget-title {
+                text-align: center;
+                font-size: 1.3em;
+        }
+        .search {
+                .form;
+                
+        } //end .search
+} //end .sidebar
+
+.recent-post {
+        ul {
+                .row(12);
+                list-style: none;
+                padding: 0;
+                li {
+                        clear: both;
+                        .post-thumbnail { .column(4); img { max-width: 100% } }
+                        a { .column(8); font-weight: bold; }
+                }
+        }
+} // end .recent-post
+ 
+.ads {
+        img { width: 100%; }
+} //end .ads
+/*--Footer--*/
+/*--Footer--*/
+#footer {
+        clear: both;
+        background: @color-background-black;
+        color: #fff;
+        font-size: 0.8em;
+        padding: 0.3em 1.5em;
+        .optin-form {
+                .form;
+        }
+        .col-3 {
+                .row(12);
+                ul {
+                        list-style: none;
+                        padding: 0;
+                        .row(12);
+                }
+        }
+} //end #foote
