@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" /> <!--Thiết lập bảng mã trang web-->
+        <title>Site Title</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" /> <!--Bật Responsive-->
+		
+        <link rel="stylesheet" href="normalize.min.css" />
+	
+		<!--IE9 không hỗ trợ query media, do vậy ta sẽ dùng respond.js để bật Responsive cho IE9-->
+        <!--[if lt IE 9]> 
+            <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script> 
+        <![endif]-->
+		<link rel="stylesheet" href="style.css" media="screen" type="text/css">  
+        <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (min-width:18.750em)">
+        <link rel="stylesheet" href="css/tablet.css" type="text/css" media="screen and (min-width:34.375em) ">
+        <link rel="stylesheet" href="css/desktop.css" type="text/css" media="screen and (min-width:48em) ">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+    </head>
+    <body>
+        
+        
+		<!--Chèn jQuery-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+		<!--End jQuery-->
+
+        <div class="topbar">
+            <p>Hot giảm giá 10% <a href="#">Click để đăng kí</a></p>
+        </div>
+
+		<div id="header">
+            <div class="site-title"><a href="#"><h1>Van Nhien</h1></a></div>
+            <script>
+                $(document).ready(function() {
+                        $('.header-menu > ul') .hide();
+                        $('a.show-menu').click(function() {
+                                $('.header-menu > ul').slideToggle(1000);
+                                return false;
+                        });
+                });
+            </script>
+            <div class="header-menu">
+
+                <a href="#" class="show-menu">Menu</a>
+                <ul>
+                    <li>
+                        <a href="">Trang chủ</a>
+                    </li> 
+                    <li>   
+                        <a href="">Liên hệ</a>
+                    </li>  
+                    <li>  
+                        <a href="">Giới thiệu</a>
+                    </li> 
+                    <li>   
+                        <a href="">Dịch vụ</a>
+
+                        <ul> <!--Start sub menu-->
+                            <li><a href="#">Thiết kế web</a></li>
+                            <li><a href="">SEO</a></li>
+                            <li><a href="">Quản trị</a></li>
+                        </ul> <!--end sub menu-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="wrapper">
+           <div class="featured-post">
+               <div class="box">
+                   <div class="post">
+                       <img src="img/f-post-1.jpg" alt="">
+                       <h2 class="post-title"><a href="">Tôi là chuẩn men</a></h2>
+                   </div>
+               </div>
+               <div class="box">
+                   <div class="post">
+                       <img src="img/f-post-2.jpg" alt="">
+                       <h2 class="post-title"><a href="">Không có tiền cạp đất à</a></h2>
+                   </div>
+               </div>
+               <div class="box">
+                   <div class="post">
+                       <img src="img/f-post-3.jpg" alt="">
+                       <h2 class="post-title"><a href="">Đã tìm thấy</a></h2>
+                   </div>
+               </div>
+           </div>
+            <div class="content">
+                <div class="content-main">
+                    <div class="post">
+                        <div class="post-thumbnail">
+                            <img src="img/post_thumb.jpg" alt="Post 1">
+                        </div>
+                        <div class="post-info">
+                            <h3>10 phần mềm quản lý thời gian tốt nhất nên dùng</h3>
+                            <div class="post-meta">
+                                Đăng bởi <a href="#">Thạch Phạm</a> trong mục <a href="#">SEO</a>
+                            </div>
+                            <div class="post-excerpt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet nulla quis felis varius ornare. Aenean vestibulum orci quis nunc convallis, quis dignissim elit vehicula. Phasellus rhoncus accumsan lacus vel ullamcorper.</p>
+                            </div>
+                            <div class="post-below">    
+                                <div class="facebook">
+                                    <a href="#">Facebook Button</a>
+                                </div>
+                                <div class="googleplus">
+                                    <a href="#">Google+ Button</a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Đọc tiếp</a>
+                                </div>
+                            </div><!--end .post-below-->
+                        </div><!--end .post-info-->
+                    </div><!--end post-->
+                    <div class="post">
+                        <div class="post-thumbnail">
+                            <img src="img/post_thumb.jpg" alt="Post 1">
+                        </div>
+                        <div class="post-info">
+                            <h3>10 phần mềm quản lý thời gian tốt nhất nên dùng</h3>
+                            <div class="post-meta">
+                                Đăng bởi <a href="#">Thạch Phạm</a> trong mục <a href="#">SEO</a>
+                            </div>
+                            <div class="post-excerpt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet nulla quis felis varius ornare. Aenean vestibulum orci quis nunc convallis, quis dignissim elit vehicula. Phasellus rhoncus accumsan lacus vel ullamcorper.</p>
+                            </div>
+                            <div class="post-below">
+                                <div class="facebook">
+                                    <a href="#">Facebook Button</a>
+                                </div>
+                                <div class="googleplus">
+                                    <a href="#">Google+ Button</a>
+                                </div>
+                                <div class="more">
+                                    <a href="#">Đọc tiếp</a>
+                                </div>
+                            </div><!--end .post-below-->
+                        </div><!--end .post-info-->
+                    </div><!--end post-->
+                    
+
+                    <div class="content-category">
+                        <div class="cat1">
+                            <h3>Thủ Thuật Wordpress</h3>
+                            <img src="img/post_thumb_cat.jpg" alt="Thumb Cat">
+                            <h4>10 Phần của Themes LESS</h4>
+                            <ul class="child">
+                                <li><a href="#">Hướng dẫn thiết kế themes</a></li>
+                                <li><a href="#">NodeJS có gì mới?</a></li>
+                                <li><a href="#">Nên chọn CoffeJS hay không?</a></li>
+                                <li><a href="#">Học LESS cho thiết kế frontend</a></li>
+                            </ul>
+                        </div>
+                        <div class="cat2">
+                            <h3>Thủ Thuật Wordpress</h3>
+                            <img src="img/post_thumb_cat.jpg" alt="Thumb Cat">
+                            <h4>10 Phần của Themes LESS</h4>
+                            <ul class="child">
+                                <li><a href="#">Hướng dẫn thiết kế themes</a></li>
+                                <li><a href="#">NodeJS có gì mới?</a></li>
+                                <li><a href="#">Nên chọn CoffeJS hay không?</a></li>
+                                <li><a href="#">Học LESS cho thiết kế frontend</a></li>
+                            </ul>
+                        </div>
+                            
+
+
+                    </div><!--end .content-category-->
+            </div><!--end .content main-->
+            <div class="sidebar">
+                <div class="widget search">
+                    <form action="#">
+                        <input type="text" placeholder="Nhập từ tìm kiếm"/>
+                        <input type="submit" value="Tìm kiếm"/>
+                    </form>
+                </div>
+
+                <div class="widget recent-post">
+                    <ul>
+                        <li>
+                            <img src="img/post_thumb_100x100.jpg" alt="Post 1">
+                            <div class="post-title"><a href="#">10 phần mềm tốt nhất</a></div>
+                        </li>
+                        <li>
+                            <img src="img/post_thumb_100x100.jpg" alt="Post 1">
+                            <div class="post-title"><a href="#">10 phần mềm tốt nhất</a></div>
+                        </li>
+                        <li>
+                            <img src="img/post_thumb_100x100.jpg" alt="Post 1">
+                            <div class="post-title"><a href="#">10 phần mềm tốt nhất</a></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget ads">
+                    <img src="img/ads-250x250.jpg" alt="ads">
+                </div>
+            </div><!--end sidebar-->
+
+        </div><!--end .content-->
+
+        <div class="footer">
+            <div class="col1">
+                <h4 class="widget-title">Van Nhien Blog</h4>
+                <ul>
+                    <li>133 Quang Trung</li>
+                    <li>0908 7763, Lindn</li>
+                    <li>999 999 999 </li>
+                    <li>pvn@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col2">
+                <h4 class="widget-title">Đăng kí nhận tin</h4>
+                <p>Đăng kí nhận bản tin để theo dõi bài viết của bạn</p>
+                <form action="">
+                    <input type="text" placeholder="Nhập email của bạn"/>
+                    <input type="submit" value="Đăng kí"/>
+                </form>
+            </div>
+            <div class="col3">
+                <h4 class="widget-title">Gallery</h4>
+                <ul>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                    <li><img src="img/post_thumb_100x100.jpg" alt="Image"><a href="#"></a></li>
+                </ul>
+            </div>
+            
+        </div>
+		
+		<!--Chèn custom javascript-->
+        <script src="js/main.js">
+
+
+        </script>
+    </body>
+</html>

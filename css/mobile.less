@@ -1,0 +1,118 @@
+@media screen and (min-width: 18.750em) {
+ 
+        // Bạn sẽ viết CSS vào phần trống này //
+ 	@import '../less_file/grid.less';
+	@import '../less_file/variable.less';
+	@total-width: 100%;
+	body {
+        font-size: 0.9em;
+	}
+	.top-bar {
+        padding: 0 0.3em;
+        line-height: 0.8em;
+	}
+
+	#header {
+        padding-top: 2em;
+        overflow: hidden;
+        .site-title {
+                a { text-align: center; }
+        } //end .site-title
+        .header-menu {
+                a.show-menu {
+                        font-weight: bold;
+                        display: block;
+                        text-align: center;
+                        background: #606060;
+                        margin: 0 8em 0.3em 8em;
+                        padding: 0.6em 0.5em;
+                        border-radius: 5px;
+                        &:hover {
+                                color: #fff;
+                                background: darken(#606060, 10%)
+                        }
+                }
+                ul {
+                        list-style: none;
+                        padding: 0 0 0.5em 0;
+                        li {
+                                background: lighten(red, 10%);
+                                margin-bottom: 1em;
+                                margin: 1em;
+                                padding: 0.5em 1em;
+                                a {
+                                        &:hover { font-weight: bold; color: darken(yellow, 10%)}
+                                }
+                        } //end .header-menu ul li
+                        ul {
+                                li:before {
+                                content: "»";
+                                padding-right: 0.5em;
+                                }
+                        } //end sub-menu
+                } //end .header-menu ul
+        }
+	}
+
+
+	.featured-post {
+        .column(12);
+        margin-top: 0.5em;
+        img { width: 100%; height: 100% }
+        .box {
+                margin-bottom: 0.3em;
+                h2 { font-size: 1.3em }
+         }
+	}
+
+	/*--Content--*/
+ 
+        .content {
+                .column(12);
+ 
+                .content-main {
+                        .post {
+                                .row(12);
+                                .border-gray(1px);
+                                border-bottom: none;
+                                width: 100%;
+                                margin: 0;
+                                .post-thumbnail {
+                                        .column(4,12);
+                                        padding-top: 1.1em;
+                                }
+                                .post-info {
+                                        .column(8,12);
+                                        .post-meta { font-size: 0.9em }
+                                        .post-exceprt { display: none }
+                                }
+                                .post-below {
+                                        display: none;
+                                }
+                         } //end .post
+ 
+                } //end .content-main
+                .sidebar {
+                        .column(12);
+                }
+        }
+
+        #footer {
+	        h4 { text-align: center; font-size: 1.4em }
+	        .optin-form {
+	                input { font-size: 1em; }
+	        }
+	        .col-3 {
+	                .row(12);
+	                ul {
+	                        list-style: none;
+	                        padding: 0;
+	                        .row(12);
+	                        li {
+	                                .column(4,12);
+	                        }
+	                }
+	        }
+		}
+
+} //end media query
